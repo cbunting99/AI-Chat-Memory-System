@@ -1,0 +1,66 @@
+# Advanced Memory System - Requirements
+# Core dependencies for the modular memory system
+
+# Database and core functionality
+sqlite3  # Built-in Python module for database operations
+
+# Scientific computing and data processing
+numpy>=1.20.0  # For embedding operations and vector calculations
+
+# Machine Learning and Natural Language Processing
+sentence-transformers>=2.2.0  # For semantic embeddings and vector search
+torch>=1.9.0  # PyTorch backend for sentence transformers
+transformers>=4.20.0  # Hugging Face transformers (dependency of sentence-transformers)
+
+# Multi-modal content processing
+Pillow>=9.0.0  # For image processing and metadata extraction
+librosa>=0.9.0  # For audio processing and feature extraction
+
+# Optional dependencies for enhanced functionality
+# Uncomment these if you need additional features:
+
+# Advanced NLP capabilities
+# spacy>=3.4.0  # For enhanced text processing and NER
+# nltk>=3.7  # Natural Language Toolkit for text analysis
+
+# Computer vision enhancements
+# opencv-python>=4.5.0  # For advanced image and video processing
+# imageio>=2.19.0  # For reading/writing various image formats
+
+# Audio processing enhancements  
+# soundfile>=0.10.0  # For audio file I/O
+# pydub>=0.25.0  # For audio manipulation
+
+# Document processing
+# PyPDF2>=2.0.0  # For PDF document processing
+# python-docx>=0.8.11  # For Word document processing
+# python-pptx>=0.6.21  # For PowerPoint processing
+
+# Video processing
+# moviepy>=1.0.3  # For video processing capabilities
+
+# Web scraping and content extraction
+# beautifulsoup4>=4.11.0  # For HTML content parsing
+# requests>=2.28.0  # For web content fetching
+
+# Performance and monitoring
+# tqdm>=4.64.0  # For progress bars during long operations
+# psutil>=5.9.0  # For system resource monitoring
+
+# Development and testing
+# pytest>=7.0.0  # For unit testing
+# pytest-asyncio>=0.21.0  # For async testing support
+# black>=22.0.0  # Code formatting
+# flake8>=5.0.0  # Code linting
+
+# Visualization (optional)
+# matplotlib>=3.5.0  # For data visualization
+# plotly>=5.0.0  # For interactive visualizations
+
+# Async support (if needed)
+# aiofiles>=0.8.0  # For async file operations
+# asyncio  # Built-in Python module
+
+# Additional utilities
+# python-dateutil>=2.8.0  # For enhanced date/time operations
+# loguru>=0.6.0  # Enhanced logging capabilities
